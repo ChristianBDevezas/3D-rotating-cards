@@ -127,6 +127,13 @@ body {
     transform: rotateY(180deg) translateY(0%);
 }
 
+.course-item__back__img {
+    display: block;
+    width: 100px;
+    height: 114px;
+    margin: auto;
+}
+
 /* .course-wrapper:hover .course-item__back__img {
     animation: move-image 2s .7s;
 } */
@@ -136,13 +143,6 @@ body {
 @keyframes move-image {
     from {transform: rotateY(0deg);}
     to {transform: rotateY(360deg);}
-}
-
-.course-item__image-back img {
-    display: block;
-    width: 100px;
-    height: 114px;
-    margin: auto;
 }
 
 .course-item__features ul {
